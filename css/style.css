@@ -1,0 +1,67 @@
+body {
+	background: url('../images/bkgnd.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Fira Sans', sans-serif;
+
+}
+#container{
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	font-size: 18px;
+	background: black;
+	border-radius: 15px;
+	color: #ECDBBA;
+	width: 400px;
+	padding: 15px;
+}
+
+h1{
+	font-size: 50px;
+	margin: 5px;
+	color: #C84B31;
+	font-family: 'Kanit', sans-serif;	
+}
+
+h2{
+	background: #2D4263;
+	color: #ECDBBA;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 0px;
+}
+
+h3{
+	margin: 5px;
+}
+
+h4{
+	margin-left: 5px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+p{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: justify;
+}
+
+i{
+	color: #2C74B3;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+a{
+	color: #2C74B3;
+	text-decoration: none;
+}
